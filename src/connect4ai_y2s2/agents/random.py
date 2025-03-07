@@ -1,6 +1,6 @@
-from generic import genericAgent
+from connect4ai_y2s2.agents.generic import genericAgent
 from random import choice
-from board import Board
+from connect4ai_y2s2.board import Board
 
 class randomAgent(genericAgent):
     """Random agent"""
