@@ -7,7 +7,9 @@ authors = [
     { name = "TerminalMan", email = "84923604+SecretiveShell@users.noreply.github.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "numpy>=2.2.3",
+]
 
 [project.scripts]
 connect4ai-y2s2 = "connect4ai_y2s2:main"
