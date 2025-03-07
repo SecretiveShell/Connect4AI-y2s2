@@ -60,6 +60,10 @@ class Board:
             else:
                 break
         return count == 4
+    
+    def copy(self) -> "Board":
+        """Returns a copy of the board"""
+        return Board(np.copy(self.state))
 
 if __name__ == "__main__":
     board = Board()
